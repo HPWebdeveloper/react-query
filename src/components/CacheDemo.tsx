@@ -82,8 +82,9 @@ function CacheDemo() {
     <div className="max-w-4xl mx-auto px-5 py-10 mt-10 border-t-2 border-purple-500">
       <h2 className="text-3xl font-semibold mb-4">🗂️ React Query Cache Demo</h2>
       <p className="text-gray-400 mb-6 text-sm">
-        Open the browser console to see when actual API calls are made. Notice
-        how React Query caches data intelligently!
+        Since the server is on a free tier, please wait about one minute for it
+        to wake up. Open the browser console to see when actual API calls are
+        made. Notice how React Query caches data intelligently!
       </p>
 
       <QueryConfiguration staleTime={staleTime} gcTime={gcTime} />
